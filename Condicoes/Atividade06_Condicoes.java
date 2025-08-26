@@ -9,7 +9,7 @@ public class Atividade06_Condicoes {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Digite a média final do aluno: ");
-        int media = input.nextInt();
+        double media = input.nextInt();
 
         if (media >= 7) {
             System.out.println("O aluno foi aprovado.");
